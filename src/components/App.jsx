@@ -1,10 +1,6 @@
 import { Route, Routes, Navigate } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
-import styles from './container.module.css';
-//import { Navigation } from "./Navigation/Navigation";
-//import { HomePage } from './HomePage/HomePage';
-//import { MoviesPage } from './MoviesPage/MoviesPage';
-//import { MovieDetailsPage } from './MovieDetailsPage/MovieDetailsPage';
+import styles from './App.module.css';
 
 const HomePage = lazy(() => import('./HomePage/HomePage'));
 const MoviesPage = lazy(() => import('./MoviesPage/MoviesPage'));
