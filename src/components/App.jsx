@@ -5,7 +5,7 @@ import styles from './App.module.css';
 const HomePage = lazy(() => import('./HomePage/HomePage'));
 const MoviesPage = lazy(() => import('./MoviesPage/MoviesPage'));
 const MovieDetailsPage = lazy(() =>
-  import('./MovieDetailsPage/MovieDetailsPage')
+  import('./MovieDetailsPage/MovieDetailsPage.jsx')
 );
 const Navigation = lazy(() => import('./Navigation/Navigation'));
 
