@@ -1,5 +1,7 @@
 .filmsItem {
-    font-size: 35px;
+    font-size: 20px;
+    list-style: none;
+    font-variant: small-caps;
 }
 
 .filmsLink {
