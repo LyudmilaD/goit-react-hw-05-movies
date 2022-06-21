@@ -2,8 +2,7 @@ import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { lazy, Suspense, useState, useEffect } from 'react';
 import styles from './MovieDetailsPage.module.css';
 import { Link, useParams } from 'react-router-dom';
-//import { Cast } from "../Cast/Cast.jsx";
-//import { Reviews } from 'components/Reviews/Reviews.jsx';
+
 const Cast = lazy(() => import('../Cast/Cast'));
 const Reviews = lazy(() => import('../Reviews/Reviews'));
 

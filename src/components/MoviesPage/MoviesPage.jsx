@@ -2,7 +2,7 @@ import { useLocation, useNavigate, createSearchParams } from 'react-router-dom';
 import { lazy, Suspense, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './MoviesPage.module.css';
-//import { Searchbar } from "../SearchBar/SearchBar.jsx";
+
 const Searchbar = lazy(() => import('../SearchBar/SearchBar'));
 
 const MoviesPage = () => {
