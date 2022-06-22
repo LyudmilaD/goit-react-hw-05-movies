@@ -1,4 +1,4 @@
-import { Route, Routes, Navigate } from 'react-router-dom';
+import { Route, Routes, Outlet, Navigate } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 import styles from './App.module.css';
 
@@ -13,6 +13,7 @@ export const App = () => {
   return (
     <div className={styles.App}>
       <Navigation />
+      <Outlet />
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
