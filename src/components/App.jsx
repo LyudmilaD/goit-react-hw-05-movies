@@ -13,7 +13,6 @@ export const App = () => {
   return (
     <div className={styles.App}>
       <Navigation />
-      <Outlet />
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
